@@ -1,6 +1,6 @@
 {
   "name": "@romawebdev63/singleton-mcp-proxy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cross-platform stdio MCP bridge that ensures one shared upstream HTTP MCP server instance",
   "type": "module",
   "license": "MIT",
