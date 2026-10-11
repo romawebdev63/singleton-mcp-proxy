@@ -1,12 +1,33 @@
 {
-  "name": "singleton-mcp-proxy",
+  "name": "@romawebdev63/singleton-mcp-proxy",
   "version": "0.1.0",
   "description": "Cross-platform stdio MCP bridge that ensures one shared upstream HTTP MCP server instance",
   "type": "module",
   "license": "MIT",
-  "engines": { "node": ">=18" },
-  "bin": { "singleton-mcp-proxy": "bin/cli.mjs" },
-  "files": ["bin/cli.mjs", "src/runner.mjs", "README.md", "LICENSE"],
-  "scripts": { "check": "node --check bin/cli.mjs && node --check src/runner.mjs" },
-  "dependencies": { "mcp-proxy": "^6.7.19" }
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "singleton-mcp-proxy": "bin/cli.mjs"
+  },
+  "files": [
+    "bin/cli.mjs",
+    "src/runner.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node --check bin/cli.mjs && node --check src/runner.mjs"
+  },
+  "dependencies": {
+    "mcp-proxy": "^6.7.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romawebdev63/singleton-mcp-proxy.git"
+  },
+  "homepage": "https://github.com/romawebdev63/singleton-mcp-proxy#readme",
+  "bugs": {
+    "url": "https://github.com/romawebdev63/singleton-mcp-proxy/issues"
+  }
 }
